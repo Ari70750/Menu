@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+
+}
+
+html {
+	padding: 20px;
+	background-color: #fff;
+}
+
+body {
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	background-color: #3b3f45;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 95%;
+	height: 92%;
+}
+
+.hello {
+	position: relative;
+	bottom: 10px;
+	display: inline-block;
+	width: 100%;
+	margin: 10px auto;
+	background-color: #4a4f56;
+	text-align: center;
+}
+
+h1 {
+	color: #eb7e7f;
+	font-weight:bold;
+}
+
+h2 {
+	color: #eb7e7f;
+	font-weight: 200;
+}
+
+.checkboxes {
+	width: 850px;
+	margin: 50px auto;
+	list-style-type: none;
+	font-size: 22px;
+	padding: 0;
+	color: #fff;
+}
+
+.checkboxes li label {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background-color: #88839e;
+	border-top: 2px solid #88839e;
+	border-bottom: 2px solid #88839e;
+}
+
+.checkboxes li:nth-of-type(even) label {
+	background-color: #7a7593;
+	border-top: 2px solid #7a7593;
+	border-bottom: 2px solid #7a7593;
+}
+
+.checkboxes li:hover label {
+	border-color: #fff;
+}
+
+.checkboxes input:checked + span,
+.checkboxes input:checked + span + small {
+	text-decoration: line-through;
+}
+
+.checkbox {
+	width: 50px;
+	font-size: 22px;
+}
+.appetit {
+   
+    background-color: #4a4f56;
+    margin: 0 auto;
+    height: 100%;
+    width: 850px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 200;
+}
+small {
+	color: #c9c5ce;
+}
